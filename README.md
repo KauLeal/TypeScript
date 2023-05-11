@@ -6,6 +6,56 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
+## Sumário
+
+### I. Introdução
+
+Breve apresentação do objetivo da apresentação
+Contextualização da linguagem TypeScript
+Explicação da importância do uso de TypeScript
+
+### II. Histórico
+
+Apresentação do histórico do desenvolvimento da linguagem TypeScript
+Principais motivos para a criação do TypeScript
+
+### III. Características gerais da linguagem
+
+Explicação das principais características que diferenciam o TypeScript de outras linguagens
+Tipagem estática
+Orientação a objetos
+Compilação de código
+
+=> COMO FAZER A INSTALAÇÃO
+
+### IV. Sintaxe básica
+
+Apresentação dos conceitos fundamentais da sintaxe do TypeScript
+Hello World: como escrever e executar um programa básico em TypeScript
+Declaração de variáveis
+Tipos (Primitivos, Objetos e outros)
+Estruturas de decisão (if-else, switch)
+Estrutura de repetição (for, while, do while)
+Modularização (funções)
+
+### V. Vantagens do TypeScript
+
+Enumeração das vantagens de se utilizar TypeScript
+Redução de erros
+Maior produtividade
+Facilidade de manutenção do código
+
+### VI. Conclusão
+
+Recapitulação dos principais pontos apresentados
+Incentivo à utilização de TypeScript
+Sugestão de materiais para aprofundamento do estudo da linguagem
+
+### VII. Perguntas
+
+Responder perguntas da plateia sobre o conteúdo apresentado
+
+______________________________________
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
@@ -49,17 +99,17 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://ih1.redbubble.net/image.2774385448.6034/st,small,507x507-pad,600x600,f8f8f8.jpg" width="100px;" alt="Foto da Alícia"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Alícia</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://e7.pngegg.com/pngimages/946/947/png-clipart-anime-meme-manga-leafa-lolicon-anime-manga-chibi.png" width="100px;" alt="Foto do Ezequiel"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Ezequiel</b>
         </sub>
       </a>
     </td>
@@ -67,7 +117,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b>Kaú</b>
         </sub>
       </a>
     </td>
