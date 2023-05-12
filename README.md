@@ -1,95 +1,86 @@
-# Apresentação TypeScript
+# TypeScript
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+TypeScript é uma linguagem de programação de código aberto que foi criada em 2012 pela Microsoft como uma extensão do JavaScript. O TypeScript adiciona recursos ao JavaScript, como tipagem estática, classes, interfaces e outros recursos orientados a objetos, tornando-o mais robusto, escalável e fácil de manter.
 
-## Sumário
+O TypeScript é compatível com o JavaScript existente e pode ser usado em qualquer aplicativo JavaScript. Ele é compilado em JavaScript legível para o navegador ou para qualquer ambiente JavaScript. Isso significa que os desenvolvedores podem usar as bibliotecas e estruturas de código JavaScript existentes, como Angular, React e Vue, com o TypeScript.
 
-### I. Introdução
+## Sumário da apresentação
 
-Breve apresentação do objetivo da apresentação
-Contextualização da linguagem TypeScript
-Explicação da importância do uso de TypeScript
-
-### II. Histórico
-
-Apresentação do histórico do desenvolvimento da linguagem TypeScript
-Principais motivos para a criação do TypeScript
-
-### III. Características gerais da linguagem
-
-Explicação das principais características que diferenciam o TypeScript de outras linguagens
-Tipagem estática
-Orientação a objetos
-Compilação de código
-
+I. Introdução
+II. Histórico
+III. Características gerais da linguagem
 => COMO FAZER A INSTALAÇÃO
-
-### IV. Sintaxe básica
-
-Apresentação dos conceitos fundamentais da sintaxe do TypeScript
-Hello World: como escrever e executar um programa básico em TypeScript
-Declaração de variáveis
-Tipos (Primitivos, Objetos e outros)
-Estruturas de decisão (if-else, switch)
-Estrutura de repetição (for, while, do while)
-Modularização (funções)
-
-### V. Vantagens do TypeScript
-
-Enumeração das vantagens de se utilizar TypeScript
-Redução de erros
-Maior produtividade
-Facilidade de manutenção do código
-
-### VI. Conclusão
-
-Recapitulação dos principais pontos apresentados
-Incentivo à utilização de TypeScript
-Sugestão de materiais para aprofundamento do estudo da linguagem
-
-### VII. Perguntas
-
-Responder perguntas da plateia sobre o conteúdo apresentado
-
-______________________________________
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
-
-## 💻 Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+IV. Sintaxe básica
+V. Vantagens do TypeScript
+VI. Conclusão
+VII. Perguntas
 
 ## 🚀 Instalando o TypeScript
 
 Para instalar o TypeScript, siga estas etapas:
 
-Windows:
-```
-<comando_de_instalação>
-```
+### Usando o npm (Node Package Manager)
 
-## ☕ Usando o TypeScript
+Certifique-se de que o Node.js está instalado em seu computador. Você pode baixar o Node.js no site oficial: https://nodejs.org/
 
-Para usar <nome_do_projeto>, siga estas etapas:
+### Windows
 
-```
-<exemplo_de_uso>
-```
+1. Abra o "Prompt de Comando" ou o "Windows PowerShell".</li>
+2. Execute o seguinte comando para instalar o TypeScript globalmente:
+
+npm install -g typescript
+
+### Linux e Mac
+
+<ol>
+  <li>1. Abra o terminal.</li>
+  <li>2. Execute o seguinte comando para instalar o TypeScript globalmente:</li>
+</ol>
+
+sudo npm install -g typescript
+
+<p>Após a instalação, você pode verificar se o TypeScript está instalado corretamente executando o comando ‘tsc -v’ em um terminal. Isso deve exibir a versão do TypeScript instalada em seu computador.</p>
+
+## Vs Code
+
+Nossa recomendação de editor de texto é o Visual Studio Code. Você pode baixar através do seguinte link: https://code.visualstudio.com/
+
+<p align="center"><img src=/screenshots/vs-code.png></p>
+
+Depois de instalado, para iniciar um projeto TypeScript no Visual Studio Code, siga os seguintes passos:
+
+<ol>
+  <li>Abra o Visual Studio Code.</li>
+  <li>Crie uma nova pasta para o projeto.</li>
+  <li>Abra a pasta no Visual Studio Code usando o comando "Open Folder" no menu "File".</li>
+  <li>Crie um novo arquivo TypeScript na pasta usando o comando "New File" no menu "File".</li>
+  <li>Salve o arquivo com a extensão ".ts".</li>
+  <li>O Visual Studio Code irá sugerir a instalação do TypeScript caso ele ,,,.ainda não esteja instalado. Clique em "Install" para instalar o TypeScript.</li>
+  <li>Abra o terminal no Visual Studio Code usando o menu "Terminal".
+  No terminal, execute o comando tsc --init para gerar o arquivo de configuração tsconfig.json.</li>
+  <li>Abra o arquivo tsconfig.json gerado e configure as opções de acordo com as necessidades do projeto.</li>
+  <li>Escreva o código TypeScript no arquivo criado e salve-o.</li>
+  <li>Para compilar o código TypeScript em JavaScript, execute o comando ‘tsc 'nome-do-arquivo.ts' no terminal, ou simplesmente use o atalho Ctrl + Shift + B para compilar todos os arquivos TypeScript do projeto.</li>
+  <li>Para executar o arquivo em Javascript, execute o comando ‘node 'nome-do-arquivo.js' no terminal.</li>
+</ol>
+
+
+### TS Playground
+
+O TypeScript Playground é uma ferramenta online que permite experimentar o TypeScript de maneira fácil e rápida, sem precisar instalar o TypeScript no seu computador.
+
+<p align="center"><img src=/screenshots/ts-playground></p>
+
+Para utilizá-lo, siga os seguintes passos:
+
+<ol>
+<li>Abra o navegador e acesse o TypeScript Playground em https://www.typescriptlang.org/play/ </li>
+<li>Na área central da página, você verá dois painéis: um painel para digitar código TypeScript e um painel para ver o resultado da compilação.
+Digite seu código TypeScript no painel central (do lado esquerdo).
+Clique no botão "Run" (ou pressione Ctrl + Enter) para compilar e executar o código.
+O resultado da compilação será exibido no painel da direita. Se houver erros de compilação, eles serão destacados em vermelho.
+</ol>
+
 
 ## 🤝 Colaboradores
 
@@ -123,14 +114,3 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
-
-
-## 😄 Seja um dos contribuidores<br>
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
