@@ -1,6 +1,8 @@
 # TypeScript
 
-![typescript foto](/screenshots/typescript.png)
+<p align="center">
+<img src="/screenshots/typescript.png"   width="200">
+</p>
 
 > TypeScript é uma linguagem de programação de código aberto que foi criada em 2012 pela Microsoft como uma extensão do JavaScript. O TypeScript adiciona recursos ao JavaScript, como tipagem estática, classes, interfaces e outros recursos orientados a objetos, tornando-o mais robusto, escalável e fácil de manter.
 
