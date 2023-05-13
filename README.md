@@ -1,8 +1,6 @@
 # TypeScript
 
-<p align="center">
-<img src="screenshots/typescript.png"  width="300">
-</p>
+![typescript foto](/screenshots/typescript.png)
 
 > TypeScript é uma linguagem de programação de código aberto que foi criada em 2012 pela Microsoft como uma extensão do JavaScript. O TypeScript adiciona recursos ao JavaScript, como tipagem estática, classes, interfaces e outros recursos orientados a objetos, tornando-o mais robusto, escalável e fácil de manter.
 
@@ -17,11 +15,13 @@
 - Suporte a módulos e namespaces
 - Compilação e transpilação para Javascript
 
+*******
+
 ## 🚀 Instalando o TypeScript
 
 Para instalar o TypeScript, siga estas etapas:
 
-#### Usando o npm (Node Package Manager)
+### Usando o npm (Node Package Manager)
 
 Certifique-se de que o Node.js está instalado em seu computador. Caso não esteja, você pode baixá-lo no site oficial [clicando aqui](https://nodejs.org/).
 
@@ -34,16 +34,18 @@ No canto superior, clique em "Downloads" e escolha o arquivo de download de acor
 - Abra o "Prompt de Comando" ou o "Windows PowerShell".
 - Execute o seguinte comando para instalar o TypeScript globalmente:
 
-`npm install -g typescript`
+  `npm install -g typescript`
 
 ### Linux e Mac
 
 - Abra o terminal.
 - Execute o seguinte comando para instalar o TypeScript globalmente:
 
-`sudo npm install -g typescript`
+  `sudo npm install -g typescript`
 
 Após a instalação, você pode verificar se o TypeScript está instalado corretamente executando o comando `tsc -v` em um terminal. Isso deve exibir a versão do TypeScript instalada em seu computador.
+
+*******
 
 ## Visual Studio Code
 
@@ -64,7 +66,7 @@ Depois de instalado, para iniciar um projeto TypeScript no Visual Studio Code, s
 - Abra o arquivo 'tsconfig.json' gerado e configure as opções de acordo com as necessidades do projeto.
 - Escreva o código TypeScript no arquivo criado e salve-o.
 
-###### Compilando e executando o código
+##### Compilando e executando o código
 
 - Para compilar o código TypeScript em JavaScript, execute o comando `tsc nome-do-arquivo.ts` no terminal, ou simplesmente use o atalho Ctrl + Shift + B para compilar todos os arquivos TypeScript do projeto.
 - Para executar o arquivo em Javascript, execute o comando `node nome-do-arquivo.js` no terminal.
