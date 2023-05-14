@@ -81,7 +81,7 @@ O TypeScript Playground é uma ferramenta online que permite experimentar o Type
 
 Para utilizá-lo, siga os seguintes passos:
 
-- Abra o navegador e acesse o TypeScript Playground [clicando aqui](https://www.typescriptlang.org/play/).
+- Abra o navegador e acesse o TypeScript Playground [clicando aqui](https://www.typescriptlang.org/play?#code/PTAEFEGdIU1BL0B7UAVAngBxgZQMYBOAlpgC6gAKANgIboDmBSArgHYAmAhAFAigCCAR2ZFQANyR4AV6ExJ2MAgEPQpGJFI0CySKDwBn9kXpJdNTAXUxWm9qdCwAtrMt4ikLaCKsNNWtpQAKRoxGnxiMlBWFDwkR0xmWyQCbl4wADUaR3tYxxgAc89sKhQAIyVIIliALlAYAA8YPESaDhRmZwAJGCoS0AB1ZKp2bioYcjyfGnoYR1qNYlZ6UABeUAAibt6UQYJhznXuWJ8kMYA6EvoACkmPGccASlS+AHk0LFxCEnI5aBFQDoOdxqRw0UAKLysABmiikrDcYIhpBI9m8aioxmsagANMhQMI4JV6KwiFCqmCCVFZg5ZhY4PA0lS8OpIEpiCh1Ng3GS8J4UMi5OC4OwaHYhQDQeItEQlGIenV6pgMW5NJM1M8wAAZJAmXEsUgEMFQ5KSiENJotbSArZ9XbDBDVI5IE7nS5XTY9W1DLjrJ6MgCTDn0emVnmpACU2KA-KJqW5JXAwbdptTYMoFURSkQRVEwTRSmDtfRdNFZDRvPKAAfgoiWIiaUAAWgAfEA).
 - Na área central da página, você verá dois painéis: um painel para digitar código TypeScript e um painel para ver o resultado da compilação
 - Digite seu código TypeScript no painel central (do lado esquerdo)
 - Clique no botão "Run" (ou pressione Ctrl + Enter) para compilar e executar o código.
