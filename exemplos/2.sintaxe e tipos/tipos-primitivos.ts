@@ -20,12 +20,6 @@ let dia: boolean = false;
 let media: null = null;
 let nota: undefined = undefined;
 
-// void: representa o valor de retorno de funções que não retornam valores. 
-
-function noop() {
-    return;
-  }
-
 // bigint: representa valores inteiros grandes que ultrapassam o limite de Number.MAX_SAFE_INTEGER.
 
 let bigIntValor: bigint = 9007199254740991n
