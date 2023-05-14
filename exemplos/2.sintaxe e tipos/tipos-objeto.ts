@@ -46,7 +46,8 @@ let pessoa1: Pessoa = new Pessoa("João", 28);
 interface Pessoa {
 nome: string;
 idade: number;
+cidade: string;
 }
 
-let pessoa2: Pessoa = { nome: "João", idade: 28 };
+let pessoa2: Pessoa = { nome: "Pedro", idade: 35, cidade: "Manaus" };
 

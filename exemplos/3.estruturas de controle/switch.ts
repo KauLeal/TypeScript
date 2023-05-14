@@ -1,6 +1,6 @@
 // Declaração da variável dia da semana
 
-let diaDaSemana: number = 2;
+let diaDaSemana: number = 1;
 
 // Utilizando a estrutura de controle switch
 
