@@ -1,4 +1,6 @@
-// Os operadores ternários são uma forma abreviada de escrever uma estrutura de controle de fluxo condicional simples em que uma expressão é avaliada e, dependendo do resultado, uma entre duas expressões é executada.
+// Os operadores ternários são uma forma abreviada de escrever uma estrutura de controle 
+//de fluxo condicional simples em que uma expressão é avaliada e, dependendo do resultado,
+//uma entre duas expressões é executada.
 
 const age: number = 18;
 
