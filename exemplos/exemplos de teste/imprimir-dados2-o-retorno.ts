@@ -16,16 +16,16 @@ class Pessoa {
   }
 }
 
-const pessoas: Pessoa[] = [];     // É criado o array que será imprimido no final do código mostrando todos os objetos
+const pessoas: Pessoa[] = [];    
 
-let adicionarPessoa = true;       // Variável criada para manter o while ativo até que deixe de ser true
+let adicionarPessoa = true;       
 
 while (adicionarPessoa) {
   let nome: string | null = null;     // É utilizado o | para criar uma intersecção, permitindo que as váriáveis assumam dois
   let idade: number | null = null;    // tipos diferentes: string/number e null. É inicializada como null.
   let cidade: string | null = null;
 
-  while (!nome) {                                                 // Checa se nome é nula ou vazia
+  while (!nome) {                                                 
     nome = prompt("Digite o nome da pessoa:") ?? "Desconhecido";  // O ?? (operador de coalescência nula) oferece um valor padrão
   }                                                               // caso o valor fornecido seja nulo.
 
@@ -45,9 +45,9 @@ while (adicionarPessoa) {
     cidade = prompt("Digite a cidade da pessoa:") ?? "Desconhecida";
   }
 
-  const pessoa = new Pessoa(nome, idade, cidade);             // Cria o objeto
+  const pessoa = new Pessoa(nome, idade, cidade); 
 
-  pessoas.push(pessoa);       // Insere o objeto no array
+  pessoas.push(pessoa);
 
   const resposta = (prompt("Deseja adicionar outra pessoa? (S/N)") ?? "").toUpperCase(); 
 
@@ -58,4 +58,4 @@ while (adicionarPessoa) {
   }
 }
 
-console.log(pessoas);   // Imprime o array
+console.log(pessoas);
