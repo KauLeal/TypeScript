@@ -1,4 +1,5 @@
-// Nesse exemplo, a função imprimirDadosPessoa recebe como parâmetros o nome (do tipo string), a idade (do tipo number) e o email (do tipo string) da pessoa. Dentro da função, os dados são impressos no console usando a função console.log.
+// Nesse exemplo, a função imprimirDadosPessoa recebe como parâmetros o nome (do tipo string), a idade (do tipo number) e o email (do tipo string) da pessoa. 
+// Dentro da função, os dados são impressos no console usando a função console.log.
 
 function imprimirDadosPessoa(nome: string, idade: number, email: string) {
     console.log(`Nome: ${nome}`);
